@@ -33,7 +33,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/social-media-app.git
+    git clone https://github.com/sKyi01/social-media-app.git
     cd social-media-app
     ```
 
