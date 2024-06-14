@@ -1,13 +1,13 @@
 ## Social Media App
 This social media application is built with Node.js, Express, and MongoDB. It allows users to create an account, post updates, and interact with other users' posts. The app also includes authentication and authorization features using Passport.js.
 
-## Table of Contents
-## Features
-## Prerequisites
-## Installation
-## Usage
-## Project Structure
-## Technologies Used
+ Table of Contents
+ Features
+ Prerequisites
+ Installation
+ Usage
+ Project Structure
+ Technologies Used
 
 ## Features
 User authentication and authorization (local, JWT, and Google OAuth2)
@@ -23,7 +23,9 @@ Before you begin, ensure you have met the following requirements:
 Node.js (v12 or higher)
 MongoDB
 npm (Node Package Manager)
-Installation
+
+
+## Installation
 Clone the repository:
 
 
@@ -49,38 +51,6 @@ Start the server:
 npm start
 Open your web browser and go to http://localhost:8080 to access the app.
 
-Project Structure
-
-social-media-app/
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── scss/
-├── config/
-│   ├── mongoose.js
-│   ├── passport-google-oauth2-strategy.js
-│   ├── passport-jwt-strategy.js
-│   └── passport_local_strategy.js
-├── controllers/
-├── email_service/
-│   └── job_worker.js
-├── mailers/
-├── models/
-├── routes/
-│   ├── api/
-│   │   └── v1/
-│   ├── comments.js
-│   ├── index.js
-│   ├── posts.js
-│   └── users.js
-├── uploads/
-│   └── users/
-│       └── avatars/
-├── views/
-├── .gitignore
-├── index.js
-├── package-lock.json
-└── package.json
 
 ## Technologies Used
 Node.js
